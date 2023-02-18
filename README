@@ -1,0 +1,20 @@
+2048
+Time for implementation - 3 hours
+-------------------------------------------------------------------------------
+    This is a command-line version of the popular game 2048, created using C++.
+The game involves sliding numbered tiles on a grid to combine them and create
+higher-value tiles. The goal is to reach the 2048 tile before the grid fills up
+and no more moves can be made.
+    The game begins with a 4x4 grid of numbered tiles, with two tiles randomly
+placed on the board. The player can move the tiles up, down, left, or right,
+and any tiles that are touching and have the same number will combine into a
+new tile with double the value. The game continues until either the player
+reaches the 2048 tile or the grid fills up and no more moves can be made.During
+the game, the player can also view their current score and the highest tile
+they have reached so far.
+    The code for the game is contained in a single file, 2048.cpp. The main
+game loop is implemented in the main function, with separate functions for
+handling input, updating the game board, and displaying the grid.The game board
+is represented as a two-dimensional array, with each element containing the
+value of the corresponding tile. The game logic is implemented using
+conditional statements to check for valid moves and combine tiles.
