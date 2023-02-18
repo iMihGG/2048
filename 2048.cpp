@@ -2,7 +2,7 @@
 #include <string.h>
 #include <cstdlib>
 #include <utility>
-#include<iomanip>
+#include <iomanip>
 using namespace std;
 
 int board[4][4], score = 0;
